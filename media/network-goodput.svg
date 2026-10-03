@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img"><title>ARQ goodput under independent data + ACK loss</title>
+<rect width="900" height="540" rx="20" fill="#101b32"/>
+<text x="40" y="42" fill="#eff4ff" font-family="sans-serif" font-size="23">ARQ goodput under independent data + ACK loss</text>
+<path d="M85,425.0H675" stroke="#30405c"/><text x="75" y="430.0" fill="#a9bad6" text-anchor="end" font-family="sans-serif" font-size="13">0.0</text>
+<path d="M85,357.0H675" stroke="#30405c"/><text x="75" y="362.0" fill="#a9bad6" text-anchor="end" font-family="sans-serif" font-size="13">218.7</text>
+<path d="M85,289.0H675" stroke="#30405c"/><text x="75" y="294.0" fill="#a9bad6" text-anchor="end" font-family="sans-serif" font-size="13">437.4</text>
+<path d="M85,221.0H675" stroke="#30405c"/><text x="75" y="226.0" fill="#a9bad6" text-anchor="end" font-family="sans-serif" font-size="13">656.1</text>
+<path d="M85,153.0H675" stroke="#30405c"/><text x="75" y="158.0" fill="#a9bad6" text-anchor="end" font-family="sans-serif" font-size="13">874.9</text>
+<path d="M85,85.0H675" stroke="#30405c"/><text x="75" y="90.0" fill="#a9bad6" text-anchor="end" font-family="sans-serif" font-size="13">1093.6</text>
+<text x="85.0" y="450" fill="#a9bad6" text-anchor="middle" font-family="sans-serif" font-size="13">0</text>
+<text x="114.5" y="450" fill="#a9bad6" text-anchor="middle" font-family="sans-serif" font-size="13">1</text>
+<text x="232.5" y="450" fill="#a9bad6" text-anchor="middle" font-family="sans-serif" font-size="13">5</text>
+<text x="380.0" y="450" fill="#a9bad6" text-anchor="middle" font-family="sans-serif" font-size="13">10</text>
+<text x="675.0" y="450" fill="#a9bad6" text-anchor="middle" font-family="sans-serif" font-size="13">20</text>
+<polyline points="85.00,129.35 114.50,206.97 232.50,283.60 380.00,325.57 675.00,376.01" stroke="#30c5a2" stroke-width="3" fill="none"/>
+<circle cx="85.00" cy="129.35" r="4" fill="#30c5a2"/>
+<circle cx="114.50" cy="206.97" r="4" fill="#30c5a2"/>
+<circle cx="232.50" cy="283.60" r="4" fill="#30c5a2"/>
+<circle cx="380.00" cy="325.57" r="4" fill="#30c5a2"/>
+<circle cx="675.00" cy="376.01" r="4" fill="#30c5a2"/>
+<text x="700" y="110" fill="#30c5a2" font-family="sans-serif" font-size="15">GBN W=8</text>
+<polyline points="85.00,129.35 114.50,203.87 232.50,262.95 380.00,310.72 675.00,367.40" stroke="#6e9dff" stroke-width="3" fill="none"/>
+<circle cx="85.00" cy="129.35" r="4" fill="#6e9dff"/>
+<circle cx="114.50" cy="203.87" r="4" fill="#6e9dff"/>
+<circle cx="232.50" cy="262.95" r="4" fill="#6e9dff"/>
+<circle cx="380.00" cy="310.72" r="4" fill="#6e9dff"/>
+<circle cx="675.00" cy="367.40" r="4" fill="#6e9dff"/>
+<text x="700" y="140" fill="#6e9dff" font-family="sans-serif" font-size="15">SR W=8</text>
+<text x="380" y="490" fill="#dbe7fc" text-anchor="middle" font-family="sans-serif" font-size="16">Loss probability per direction (%)</text>
+<text transform="translate(23 250) rotate(-90)" fill="#dbe7fc" text-anchor="middle" font-family="sans-serif" font-size="16">Simulated goodput (kbps)</text>
+<text x="40" y="522" fill="#91a4c4" font-family="sans-serif" font-size="12">Generated from committed experiment data; see experiments/config.json and methodology.</text></svg>
