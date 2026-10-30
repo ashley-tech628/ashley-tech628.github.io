@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="880" height="410" preserveAspectRatio="xMinYMin meet" viewBox="0 0 880 410" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="880" height="410"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-410)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="35" y="382" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(9%,15%,21%); stroke:none;" transform="translate(0,764) scale(1,-1)">SQLite recovery workflow — synthetic local experiment</text>
+			<text x="35" y="358" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,716) scale(1,-1)">Python implementation · median of 3 runs · indexed records with 128-byte BLOBs</text>
+			<g transform="">
+				<g transform="">
+					<rect x="112.98076923076923" y="85.0" width="47.11538461538461" height="7.463925398993666" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="357.9807692307692" y="85.0" width="47.115384615384585" height="29.440546933955588" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="602.9807692307693" y="85.0" width="47.11538461538464" height="113.45611999993429" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,92%); fill-rule: evenodd;"/>
+					<rect x="178.94230769230768" y="85.0" width="47.11538461538461" height="2.1269669147351635" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,56%,69%); fill-rule: evenodd;"/>
+					<rect x="423.9423076923077" y="85.0" width="47.115384615384585" height="17.227163062824943" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,56%,69%); fill-rule: evenodd;"/>
+					<rect x="668.9423076923076" y="85.0" width="47.11538461538464" height="101.08926310383072" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,56%,69%); fill-rule: evenodd;"/>
+					<rect x="244.90384615384613" y="85.0" width="47.115384615384585" height="5.2107092181149" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+					<rect x="489.90384615384613" y="85.0" width="47.115384615384585" height="34.650316144912864" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+					<rect x="734.9038461538462" y="85.0" width="47.11538461538464" height="203.17152768928702" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(48%,22%,92%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 80,85 L 815,85 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 80,85 L 80,80 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 325,85 L 325,80 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 570,85 L 570,80 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 815,85 L 815,80 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,202.5,80)">
+							<text x="-24.442" y="-11.0" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">1,000 rows</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,447.5,80)">
+							<text x="-27.192" y="-11.0" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">10,000 rows</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,692.5,80)">
+							<text x="-27.192" y="-11.0" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-22) scale(1,-1)">50,000 rows</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 80,85 L 80,320 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 80,85 L 75,85 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 80,121.153846 L 75,121.153846 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 80,157.307692 L 75,157.307692 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 80,193.461538 L 75,193.461538 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 80,229.615385 L 75,229.615385 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 80,265.769231 L 75,265.769231 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 80,301.923077 L 75,301.923077 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,75,85)">
+							<text x="-5.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,75,121.153846)">
+							<text x="-15.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">100</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,75,157.307692)">
+							<text x="-15.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">200</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,75,193.461538)">
+							<text x="-15.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">300</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,75,229.615385)">
+							<text x="-15.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">400</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,75,265.769231)">
+							<text x="-15.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">500</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,75,301.923077)">
+							<text x="-15.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">600</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="30" y="320" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,640) scale(1,-1)">ms</text>
+			<text x="85" y="35" style="font-family: Times-Roman; font-size: 11px;fill: rgb(14%,38%,92%); stroke:none;" transform="translate(0,70) scale(1,-1)">Backup + validation</text>
+			<text x="330" y="35" style="font-family: Times-Roman; font-size: 11px;fill: rgb(3%,56%,69%); stroke:none;" transform="translate(0,70) scale(1,-1)">Bundle verification</text>
+			<text x="575" y="35" style="font-family: Times-Roman; font-size: 11px;fill: rgb(48%,22%,92%); stroke:none;" transform="translate(0,70) scale(1,-1)">Restore + validation</text>
+		</g>
+	</g>
+</svg>

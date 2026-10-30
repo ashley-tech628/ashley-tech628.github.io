@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-label="Online library application architecture">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#416fa0"/></marker></defs>
+<rect width="1100" height="340" fill="#f3f6fc"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="45" y="50" font-size="17" fill="#526580" letter-spacing="2">BJTU ONLINE LIBRARY / REQUEST PATH</text>
+<g fill="#fff" stroke="#ccd9eb" stroke-width="2"><rect x="45" y="100" width="260" height="140" rx="12"/><rect x="375" y="100" width="350" height="140" rx="12"/><rect x="795" y="100" width="260" height="140" rx="12"/></g>
+<g stroke="#416fa0" stroke-width="3" marker-end="url(#arrow)"><path d="M305 170H365"/><path d="M725 170H785"/></g>
+<g font-size="25" font-weight="700" fill="#193458"><text x="68" y="140">Vue 3 client</text><text x="398" y="140">Spring Boot application</text><text x="818" y="140">MySQL</text></g>
+<g font-size="19" fill="#526580"><text x="68" y="179">Catalog / bookshelves</text><text x="68" y="211">Axios · JSON APIs</text><text x="398" y="179">Token filters · controllers · services</text><text x="398" y="211">MyBatis Dynamic SQL / JDBC</text><text x="818" y="179">Catalog / user records</text><text x="818" y="211">Paginated queries</text></g>
+<text x="45" y="295" font-size="16" fill="#64748b">Source-based application overview · team lead and primary backend contributor</text></g></svg>
