@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+  <title id="title">RevProof improvement from V1 to V2</title>
+  <desc id="desc">Full-article exact matches on the same 100 FRUIT-WIKI silver development examples increased from 9 in V1 to 20 in V2.</desc>
+  <rect width="1000" height="440" rx="16" fill="#11203a"/>
+  <text x="55" y="65" font-family="Arial,sans-serif" font-size="22" letter-spacing="3" fill="#a9bddf">EVIDENCE-GROUNDED DOCUMENT EDITING</text>
+  <text x="55" y="118" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="white">From V1 to V2</text>
+  <text x="55" y="160" font-family="Arial,sans-serif" font-size="22" fill="#cbd8ed">Full-article exact match · same 100 silver development articles</text>
+  <text x="55" y="225" font-family="Arial,sans-serif" font-size="24" fill="#d9e4f4">V1</text>
+  <rect x="142" y="196" width="238" height="38" rx="5" fill="#8296b7"/>
+  <text x="398" y="225" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="white">9</text>
+  <text x="55" y="306" font-family="Arial,sans-serif" font-size="24" fill="#d9e4f4">V2</text>
+  <rect x="142" y="275" width="530" height="38" rx="5" fill="#6da8ff"/>
+  <text x="690" y="306" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="white">20</text>
+  <line x1="55" y1="356" x2="945" y2="356" stroke="#536b92"/>
+  <text x="55" y="397" font-family="Arial,sans-serif" font-size="20" fill="#cbd8ed">Select evidence → locate span → generate replacement → copy unchanged text</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Two WikiArt GAN experiments</title>
+  <desc id="desc">A 128 pixel style-conditional convolutional GAN trained from random initialization and a separate 1024 pixel StyleGAN2-ADA model initialized from public WikiArt weights and fine-tuned on the assigned collection.</desc>
+  <rect width="1120" height="520" fill="#f6f8fc"/>
+  <text x="48" y="54" fill="#142341" font-family="Arial,sans-serif" font-size="25" font-weight="700">TWO ROUTES TO PAINTING SYNTHESIS</text>
+  <text x="48" y="81" fill="#63728a" font-family="Arial,sans-serif" font-size="14">81,444 paintings across 27 styles · separate models and evaluation protocols</text>
+
+  <rect x="40" y="108" width="1040" height="171" rx="16" fill="#ffffff" stroke="#dbe3f1"/>
+  <rect x="40" y="108" width="8" height="171" rx="4" fill="#365dff"/>
+  <text x="66" y="140" fill="#365dff" font-family="Arial,sans-serif" font-size="14" font-weight="700">01  FROM SCRATCH · STYLE CONDITIONAL · 128 × 128</text>
+  <rect x="66" y="159" width="175" height="80" rx="10" fill="#eef2ff"/>
+  <text x="84" y="188" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">Noise + style ID</text>
+  <text x="84" y="213" fill="#63728a" font-family="Arial,sans-serif" font-size="12">z ∈ R¹²⁸ · 27 labels</text>
+  <path d="M249 199h38" stroke="#91a4c3" stroke-width="2"/><path d="m280 192 9 7-9 7" fill="none" stroke="#91a4c3" stroke-width="2"/>
+  <rect x="298" y="159" width="238" height="80" rx="10" fill="#eef2ff"/>
+  <text x="315" y="188" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">Conditional generator</text>
+  <text x="315" y="213" fill="#63728a" font-family="Arial,sans-serif" font-size="12">Transposed conv · conditional BN</text>
+  <path d="M544 199h38" stroke="#91a4c3" stroke-width="2"/><path d="m575 192 9 7-9 7" fill="none" stroke="#91a4c3" stroke-width="2"/>
+  <rect x="593" y="159" width="154" height="80" rx="10" fill="#eef2ff"/>
+  <text x="612" y="188" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">RGB painting</text>
+  <text x="612" y="213" fill="#63728a" font-family="Arial,sans-serif" font-size="12">128 × 128 · EMA G</text>
+  <path d="M755 199h38" stroke="#91a4c3" stroke-width="2"/><path d="m786 192 9 7-9 7" fill="none" stroke="#91a4c3" stroke-width="2"/>
+  <rect x="804" y="159" width="247" height="80" rx="10" fill="#eef2ff"/>
+  <text x="821" y="188" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">Projection discriminator</text>
+  <text x="821" y="213" fill="#63728a" font-family="Arial,sans-serif" font-size="12">Spectral norm · hinge objective</text>
+  <text x="67" y="258" fill="#63728a" font-family="Arial,sans-serif" font-size="12">40 epochs · 73,300 training paintings · 8,144 held out</text>
+
+  <rect x="40" y="297" width="1040" height="171" rx="16" fill="#ffffff" stroke="#dbe3f1"/>
+  <rect x="40" y="297" width="8" height="171" rx="4" fill="#b78046"/>
+  <text x="66" y="329" fill="#936326" font-family="Arial,sans-serif" font-size="14" font-weight="700">02  PUBLIC PRETRAINING + FINE-TUNING · UNCONDITIONAL · 1024 × 1024</text>
+  <rect x="66" y="348" width="215" height="80" rx="10" fill="#faf2e8"/>
+  <text x="83" y="377" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">Public WikiArt weights</text>
+  <text x="83" y="402" fill="#63728a" font-family="Arial,sans-serif" font-size="12">Peter Baylies · credited source</text>
+  <path d="M289 388h36" stroke="#a9a096" stroke-width="2"/><path d="m318 381 9 7-9 7" fill="none" stroke="#a9a096" stroke-width="2"/>
+  <rect x="336" y="348" width="230" height="80" rx="10" fill="#faf2e8"/>
+  <text x="353" y="377" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">StyleGAN2-ADA</text>
+  <text x="353" y="402" fill="#63728a" font-family="Arial,sans-serif" font-size="12">Mapping + synthesis · G / D</text>
+  <path d="M574 388h36" stroke="#a9a096" stroke-width="2"/><path d="m603 381 9 7-9 7" fill="none" stroke="#a9a096" stroke-width="2"/>
+  <rect x="621" y="348" width="194" height="80" rx="10" fill="#faf2e8"/>
+  <text x="638" y="377" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">Full-data adaptation</text>
+  <text x="638" y="402" fill="#63728a" font-family="Arial,sans-serif" font-size="12">ADA · R1 · path length · EMA</text>
+  <path d="M823 388h36" stroke="#a9a096" stroke-width="2"/><path d="m852 381 9 7-9 7" fill="none" stroke="#a9a096" stroke-width="2"/>
+  <rect x="870" y="348" width="181" height="80" rx="10" fill="#faf2e8"/>
+  <text x="887" y="377" fill="#142341" font-family="Arial,sans-serif" font-size="17" font-weight="700">Matched test</text>
+  <text x="887" y="402" fill="#63728a" font-family="Arial,sans-serif" font-size="12">FID / IS · 1,000 pairs</text>
+  <text x="67" y="447" fill="#63728a" font-family="Arial,sans-serif" font-size="12">73,299 training paintings · 4,072 validation · 4,073 test · 80.003 kimg reached</text>
+  <text x="48" y="502" fill="#63728a" font-family="Arial,sans-serif" font-size="12">The two routes differ in resolution, conditioning and split; their scores are not a controlled head-to-head comparison.</text>
+</svg>

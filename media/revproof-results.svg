@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">RevProof V1 and V2 editing results</title>
+  <desc id="desc">On 100 paired FRUIT-WIKI silver development articles, V1 had 9 exact updates, V2 forced editing had 20, and V2 with a fixed gate had 17. A gold-span and reference diagnostic had 44. Retrospective review found 38 complete semantic updates and 50 primary-fact hits, the latter including partial revisions.</desc>
+  <rect width="1200" height="650" rx="20" fill="#f3f6fc"/>
+  <text x="60" y="59" font-family="Arial,sans-serif" font-size="20" letter-spacing="3" fill="#506a92">PAIRED FRUIT-WIKI DEVELOPMENT / 100 ARTICLES</text>
+  <text x="60" y="103" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#172844">Local editing improves exact updates</text>
+  <line x1="60" y1="128" x2="1140" y2="128" stroke="#c5d0e1"/>
+  <g font-family="Arial,sans-serif" font-size="20" fill="#223657">
+    <text x="60" y="177" font-weight="700">Full-article exact match</text>
+    <text x="60" y="220">V1 pipeline</text><text x="60" y="279">V2 forced edit</text><text x="60" y="338">V2 gated</text><text x="60" y="397">Gold span + references*</text>
+    <rect x="345" y="197" width="135" height="31" rx="4" fill="#a3b4cf"/><text x="494" y="221" font-weight="700">9</text>
+    <rect x="345" y="256" width="300" height="31" rx="4" fill="#315fae"/><text x="659" y="280" font-weight="700">20</text>
+    <rect x="345" y="315" width="255" height="31" rx="4" fill="#6c8ed0"/><text x="614" y="339" font-weight="700">17</text>
+    <rect x="345" y="374" width="660" height="31" rx="4" fill="none" stroke="#315fae" stroke-width="3"/><text x="1019" y="398" font-weight="700">44</text>
+    <line x1="345" y1="428" x2="1095" y2="428" stroke="#a7b6cd"/>
+    <text x="343" y="454" font-size="16">0</text><text x="486" y="454" font-size="16">10</text><text x="636" y="454" font-size="16">20</text><text x="786" y="454" font-size="16">30</text><text x="936" y="454" font-size="16">40</text><text x="1084" y="454" font-size="16">50</text>
+  </g>
+  <rect x="60" y="487" width="1080" height="104" rx="10" fill="#e6edfa"/>
+  <g font-family="Arial,sans-serif" fill="#24395d">
+    <text x="84" y="516" font-size="17" font-weight="700">Retrospective review of V2 outputs</text>
+    <text x="84" y="557" font-size="23" font-weight="700">20/100</text><text x="184" y="557" font-size="18">silver exact</text>
+    <text x="403" y="557" font-size="23" font-weight="700">38/100</text><text x="506" y="557" font-size="18">complete semantic</text>
+    <text x="799" y="557" font-size="23" font-weight="700">50/100</text><text x="903" y="557" font-size="18">primary fact hit</text>
+  </g>
+  <text x="60" y="623" font-family="Arial,sans-serif" font-size="16" fill="#546b8f">*Oracle diagnostic with privileged inputs. Manual counts are nested; primary-fact hits include partial revisions.</text>
+</svg>
