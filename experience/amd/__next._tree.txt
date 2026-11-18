@@ -1,2 +1,2 @@
-:HL["/_next/static/chunks/0944km0fomr6a.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"experience","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"amd","siblings":["caiso"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"YMMp3tjkUqOScvf_NwOrd"}
+:HL["/_next/static/chunks/3t-vp_w57dsyd.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"experience","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"amd","siblings":["caiso"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"BFwsQYMvZKrBdpxLXfGLR"}
