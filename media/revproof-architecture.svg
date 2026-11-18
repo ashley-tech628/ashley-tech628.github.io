@@ -15,22 +15,22 @@
     <rect x="275" y="145" width="182" height="137" rx="12" fill="#1d2c49" stroke="#62779c"/>
     <text x="293" y="179" fill="#a8c0e7" font-size="17">01 / SELECT</text>
     <text x="293" y="211" fill="white" font-size="20" font-weight="700">RoBERTa</text>
-    <text x="293" y="241" fill="#d6e1f2" font-size="18">sentence + evidence</text>
+    <text x="293" y="241" fill="#d6e1f2" font-size="18">evidence pair</text>
     <rect x="500" y="145" width="182" height="137" rx="12" fill="#1d2c49" stroke="#62779c"/>
     <text x="518" y="179" fill="#a8c0e7" font-size="17">02 / LOCATE</text>
     <text x="518" y="211" fill="white" font-size="20" font-weight="700">QA span model</text>
-    <text x="518" y="241" fill="#d6e1f2" font-size="18">character boundaries</text>
+    <text x="518" y="241" fill="#d6e1f2" font-size="18">span boundaries</text>
     <rect x="725" y="145" width="198" height="137" rx="12" fill="#254379" stroke="#83a8f2"/>
     <text x="743" y="179" fill="#c5d9ff" font-size="17">03 / GENERATE</text>
     <text x="743" y="211" fill="white" font-size="20" font-weight="700">FLAN-T5-XL</text>
-    <text x="743" y="241" fill="#e1ebff" font-size="18">LoRA replacement</text>
+    <text x="743" y="239" fill="#e1ebff" font-size="17">encoder → decoder</text>
+    <text x="743" y="263" fill="#e1ebff" font-size="17">LoRA infilling</text>
     <rect x="966" y="145" width="180" height="137" rx="12" fill="#1d2c49" stroke="#62779c"/>
     <text x="984" y="179" fill="#a8c0e7" font-size="17">04 / APPLY</text>
     <text x="984" y="211" fill="white" font-size="20" font-weight="700">Copy renderer</text>
     <text x="984" y="241" fill="#d6e1f2" font-size="18">validity checks</text>
   </g>
   <g stroke="#6d84ac" stroke-width="2.4" fill="none" marker-end="url(#arrow)"><path d="M236 213H268"/><path d="M461 213H493"/><path d="M686 213H718"/><path d="M927 213H959"/></g>
-  <path d="M1057 283V321H143V283" fill="none" stroke="#91add8" stroke-width="2" stroke-dasharray="6 5"/>
-  <text x="187" y="335" fill="#c6d5eb" font-family="Arial,sans-serif" font-size="19">Unchanged text is copied verbatim; accepted edits retain their evidence reference.</text>
+  <text x="54" y="335" fill="#c6d5eb" font-family="Arial,sans-serif" font-size="19">Unchanged text is copied verbatim; accepted edits retain their evidence reference.</text>
   <text x="54" y="385" fill="#8fa6c7" font-family="Arial,sans-serif" font-size="16">V2 implementation · proposed version-aware reranker evaluated separately</text>
 </svg>
